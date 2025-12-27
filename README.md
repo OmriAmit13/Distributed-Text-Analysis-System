@@ -1,8 +1,15 @@
 # Distributed Text Analysis System
 
-## Authors
-- **Omri Amit** - 207601691
-- **Yarin Binyamin** - 318492840
+## What is This?
+
+The Distributed Text Analysis System is a cloud-based application that performs Natural Language Processing (NLP) on text files at scale. Users submit URLs to text files along with the desired analysis type, and the system distributes the work across multiple AWS EC2 worker instances for parallel processing.
+
+**Supported Analysis Types:**
+- **POS (Part-of-Speech Tagging)** - Identifies grammatical parts of speech for each word
+- **Constituency Parsing** - Generates phrase structure trees showing sentence grammar
+- **Dependency Parsing** - Creates dependency trees showing word relationships
+
+The system leverages AWS services (EC2, S3, SQS) to provide a scalable, fault-tolerant architecture where multiple clients can submit jobs concurrently, and the workload is automatically distributed across available workers.
 
 ---
 
