@@ -1,0 +1,9 @@
+## LocalApplication
+LocalApplication/target
+LocalApplication/data
+
+## Manager
+Manager/target
+
+## Worker
+Worker/target
